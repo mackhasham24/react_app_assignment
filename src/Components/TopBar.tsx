@@ -13,7 +13,7 @@ import InfoCards from "./InfoCards";
 const TopBar = () => {
   return (
     <Box >
-      <Box display="flex" justifyContent="space-between" alignItems="center" mb={3}>
+      <Box component={Paper} p={1} display="flex" justifyContent="space-between" alignItems="center" mb={3}>
         <Typography sx={{textAlign: 'left'}} variant="h6">Good morning, Dean!</Typography>
         <Box display="flex" alignItems="center">
           <Paper component="form" sx={{ display: 'flex', alignItems: 'center', mr: 2, pl: 1 }}>

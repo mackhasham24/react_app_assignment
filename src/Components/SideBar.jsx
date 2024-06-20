@@ -18,7 +18,7 @@ import RequestPageIcon from '@mui/icons-material/RequestPage';
 
 const Sidebar = () => {
   return (
-    <Box sx={{ display: { xs: 'none', md: 'block' }, maxWidth: 240, bgcolor: 'background.paper' }} p={1}>
+    <Box sx={{ display: { xs: 'none', md: 'block' }, maxWidth: 240, bgcolor: '#EEE' }} p={1}>
       
       <List component="nav">
         <ListItem button>

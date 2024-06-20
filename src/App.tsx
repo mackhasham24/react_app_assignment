@@ -17,6 +17,7 @@ import {
   Typography,
   Card,
   CardContent,
+  Paper,
 } from "@mui/material";
 
 import "./App.css";
@@ -26,12 +27,12 @@ import Sidebar from "./Components/SideBar";
 function App() {
   return (
     <div className="App">
-      <Box sx={{ flexGrow: 1 }} >
+      <Box style={{background: '#EEE'}} sx={{ flexGrow: 1 }} >
         <Grid container spacing={2}>
           <Grid item xs={0} md={4}>
             <Sidebar />
           </Grid>
-          <Grid item xs={12} md={8} p={3}>
+          <Grid component={Paper} item xs={12} md={8} p={3}>
             <TopBar />
 
             <Grid container spacing={2} p={1}>
