@@ -32,7 +32,7 @@ function App() {
           <Grid item xs={0} md={4}>
             <Sidebar />
           </Grid>
-          <Grid component={Paper} item xs={12} md={8} p={3}>
+          <Grid style={{background: "#f9f9f9"}} component={Paper} item xs={12} md={8} p={3}>
             <TopBar />
 
             <Grid container spacing={2} p={1}>
